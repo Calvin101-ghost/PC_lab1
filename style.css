@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     padding: 0 10px;
     display: flex;
-    background: #626cd6;
+    background: lightgray;
     justify-content: center;
     align-items: center;
 }
@@ -55,7 +55,7 @@ body {
 }
 .login_form .login_option .option a:hover {
     background: #ededf5;
-    border-color: #626cd6;
+    border-color: blue;
 }
 .login_form .login_option .option a img {
     max-width: 25px;
@@ -104,7 +104,7 @@ form .input_box input {
     transition: 0.2s ease;
 }
 form .input_box input:focus {
-    border-color: #626cd6;
+    border-color: #2563eb;
 }
 form .input_box .password_title {
     display: flex;
@@ -116,7 +116,7 @@ form .input_box {
 }
 a {
     text-decoration: none;
-    color: #626cd6;
+    color: #2563eb;
     font-weight: 500;
 }
 a:hover {
@@ -129,7 +129,7 @@ form button {
     border-radius: 5px;
     border: none;
     outline: none;
-    background: #626CD6;
+    background: #2563eb;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
@@ -139,5 +139,5 @@ form button {
     transition: 0.3s ease;
 }
 form button:hover {
-    background: #4954d0;
+    background: blue;
 }
