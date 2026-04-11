@@ -1,10 +1,7 @@
-require('dotenv').config();
-console.log(process.env.API_KEY);
-const api_key = process.env.API_KEY;
 
 // Firebase Configuration
 const firebaseConfig = {
-  apiKey: api_key,
+  apiKey: "AIzaSyDyIr2fg2uUtJPeHmvTJhePkt6DWti12Vw",
   authDomain: "page-not-found-a7dcb.firebaseapp.com",
   projectId: "page-not-found-a7dcb",
   storageBucket: "page-not-found-a7dcb.firebasestorage.app",
